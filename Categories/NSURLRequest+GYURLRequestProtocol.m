@@ -23,6 +23,7 @@
 }
 
 - (NSData *)body {
+    return nil;
     if (self.HTTPBodyStream) {
         NSInputStream *stream = self.HTTPBodyStream;
         NSMutableData *data = [NSMutableData data];
